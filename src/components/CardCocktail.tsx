@@ -22,7 +22,7 @@ function CardCocktail({ cocktail }: TCard) {
     <Card w={'80'} h="fit-content" boxShadow="dark-lg" borderRadius={'3xl'}>
       <VStack>
         <HStack
-          spacing={'4rem'}
+          spacing={'8'}
           justifyContent={'space-between'}
           mb={marginBottom}
           h={'14'}
@@ -38,7 +38,7 @@ function CardCocktail({ cocktail }: TCard) {
           alt={`${cocktail.strDrink}`}
           borderRadius="lg"
         />
-        <Heading mt="6" size={headingSize}>
+        <Heading my="4" size={headingSize} >
           {cocktail.strDrink}
         </Heading>
       </VStack>

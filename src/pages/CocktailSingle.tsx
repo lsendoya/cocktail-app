@@ -55,6 +55,7 @@ function CocktailSingle() {
             w="90%"
             justifyContent={isMobile ? 'center' : 'space-between'}
             mb="0.8rem"
+            spacing={'8'}
           >
             <Badge
               fontSize={isMobile ? '0.7rem' : 'md'}
