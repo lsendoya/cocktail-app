@@ -1,0 +1,14 @@
+#root {
+  margin: 0 auto;
+  text-align: center;
+}
+
+body {
+  background-image: linear-gradient(
+    69.7deg,
+    rgba(244, 37, 243, 1) 1.4%,
+    rgba(244, 87, 1, 1) 36.2%,
+    rgba(255, 204, 37, 1) 72.2%,
+    rgba(20, 196, 6, 1) 113%
+  );
+}
